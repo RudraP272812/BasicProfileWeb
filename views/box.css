@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    position: relative;
+}
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+}
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 100px ;
+    top: 0;
+
+}
+.yellow{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: fixed; 
+    top: 0;
+}
